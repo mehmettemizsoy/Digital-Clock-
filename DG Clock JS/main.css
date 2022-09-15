@@ -1,0 +1,37 @@
+body{
+    background-color: #424242;
+    color:white;
+}
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top:30%;
+    left:30%;
+}
+#clock h2{
+    font-family: 'Bebas Neue','cursive';
+    font-size: 50px;
+}
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+    align-content: center;
+}
+.clock-items{
+    width: 220px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    margin-right: 30px;
+   
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+
+}
+#date{
+    font-family: 'Bebas Neue','cursive';
+    font-size: 20px;
+}
